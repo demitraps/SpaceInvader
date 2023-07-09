@@ -1,19 +1,8 @@
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  p {
-    position: fixed;
-    z-index: 10;
-    color: white;
-    left: 10px;
-    top: 10px;
-    font-family: sans-serif;
-    font-size: 16px;
-  }
-</style>
-<p><span>Score:</span> <span id="scoreEl">0</span></p>
-<canvas></canvas>
+<link rel="stylesheet" href="./style.css">
+<div>
+  <p class="score"><span>Score:</span> <span id="scoreEl">0</span></p>
+  <p class="gameover"><span id="gameOver"></span></p>
+  <canvas></canvas>
+  
+</div>
 <script src="./index.js"></script>

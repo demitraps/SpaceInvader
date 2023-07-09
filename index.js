@@ -1,9 +1,10 @@
 const scoreEl = document.querySelector("#scoreEl");
 const canvas = document.querySelector("canvas");
+const gameOverTxt = document.querySelector("#gameOver");
 const c = canvas.getContext("2d");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = 1024;
+canvas.height = 576;
 
 class Player {
   constructor() {
@@ -350,6 +351,8 @@ function animate() {
 
       setTimeout(() => {
         game.active = false;
+        gameOverTxt.innerHTML = "Game Over";
+
       }, 2000);
       createParticles({
         object: player,
