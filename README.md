@@ -17,7 +17,17 @@ This is the classic arcade video game, where players control a laser cannon posi
 - Explosions upon successful shooting
 
 
+## How to play
 
-## Play
+Controls:
+
+- A key: move left
+- D key: move right
+- Space key: shoot
+
+... and good luck!
+
+
+## Try it out
 
 To play this project: https://jade-peony-c7d013.netlify.app/
